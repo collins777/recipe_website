@@ -6,7 +6,9 @@
   "scripts": {
     "sass": "node-sass -w src/scss/ -o dist/css/ --recursive",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "sync": "concurrently \"npm run sass\" \"npm run start\""
   },
   "author": "Brandon Collins",
   "license": "ISC",

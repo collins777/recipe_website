@@ -1,3 +1,3 @@
-import x from "./test";
+import num from "./test";
 
-console.log(`I imported ${x} from another module`);
+console.log(`I imported ${num}`);
