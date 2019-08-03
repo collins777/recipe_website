@@ -1,3 +1,3 @@
 console.log("Imported Module");
 
-export default 88;
+export default 68;
