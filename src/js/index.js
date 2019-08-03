@@ -1,4 +1,4 @@
 import num from "./test";
-import "../css/main.css";
+import "../scss/main.scss";
 
 console.log(`I imported ${num}`);
