@@ -1,3 +1,7 @@
 import "../scss/main.scss";
 
-console.log("hi");
+let test = () => {
+  console.log("Babel");
+};
+
+test();
